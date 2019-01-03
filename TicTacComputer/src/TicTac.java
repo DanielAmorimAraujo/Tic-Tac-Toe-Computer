@@ -21,7 +21,7 @@ public class TicTac extends JFrame {
     JButton btnComputerFirst = new JButton ("Computer Moves First");
     JTextField txtBlank1 = new JTextField(); //declares JTextField txtBlank1 - used to output the number of wins for X and O
     JTextField txtBlank2 = new JTextField(); //declares JTextField txtBlank2 - used to output the number of ties
-    ImageIcon back = new ImageIcon("ICS4UE_U2A5A1_DanielAraujo - Tic-Tac-Toe (Background Icon).jpg"); //declares ImageIcon variable back and stores the ICS4UE_U2A5A1_DanielAraujo - Tic-Tac-Toe (Background Icon).jpg icon - image address: https://d1bw6y4vdxj982.cloudfront.net/general-images/Materials/_materialThumbnail/Angelim-Amargoso-Wood-Icon-400x400.jpg
+    ImageIcon back = new javax.swing.ImageIcon(getClass().getResource("/imageresources/Background Icon.jpg")); //declares ImageIcon variable back and stores the Background Icon.jpg icon - image address: https://d1bw6y4vdxj982.cloudfront.net/general-images/Materials/_materialThumbnail/Angelim-Amargoso-Wood-Icon-400x400.jpg
 
     /**
      * game board components must be declares (btnPlay, btnReset, txtBlank1, etc.)
